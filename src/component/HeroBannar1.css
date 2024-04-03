@@ -1,0 +1,63 @@
+.bannarslider{
+    width: 100%;
+    overflow: hidden;
+    height: 60vh;
+    position: relative;
+}
+.bannarslider .imagecont{
+    background-color: black;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+.bannarslider .imagecont img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+}
+.bannarslider .imagecont .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.bannarslider .imagecont h1{
+    font-size: 2.0rem;
+    font-weight: 200;
+    margin-bottom: 5px;
+    width: 70%;
+}
+.bannarslider .imagecont span{
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+.bannarslider .imagecont button{
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.bannarslider .imagecont button:hover{
+    background-color: #b180a6;
+    color: white;
+}

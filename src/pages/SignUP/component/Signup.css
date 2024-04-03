@@ -1,0 +1,11 @@
+.row-label{
+    margin: 30px;
+    padding:5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+}
+.form-label{
+    width: 10%;
+}

@@ -1,0 +1,38 @@
+.row{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    
+}
+/* .product-img{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-direction: row;
+    gap:20px;
+    padding: 20px;
+} */
+.product-price{
+       display: flex;
+    align-items:start;
+    justify-content: center;
+    gap:20px;
+    padding: 20px;
+
+}
+.card-img{
+    width: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.link{
+    text-decoration-line: none;
+    list-style: none;
+    color: #b180a6;
+}
+.row-product{
+    display: flex;
+    justify-content: center;
+}

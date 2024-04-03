@@ -1,0 +1,16 @@
+.category{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 20%;
+  
+}
+
+.category-list{
+    border-radius: 10%;
+    color: black;
+    border: 1px solid #7f3131;
+    margin: 10px;
+    padding: 20px;
+}
